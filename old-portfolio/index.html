@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/index.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="../images/logo.png" alt="headerLogo" width="5%" class="header__logo" data-section="home">
+    <ul class="header__list">
+      <li class="header__listItem" data-section="about">about me</li>
+      <li class="header__listItem" data-section="projects">projects</li>
+      <li class="header__listItem" data-section="contacts">contacts</li>
+    </ul>
+    <ul class="header__listMobile">
+      <li class="header__listItem" data-section="about">about me</li>
+      <li class="header__listItem" data-section="projects">projects</li>
+      <li class="header__listItem" data-section="contacts">contacts</li>
+    </ul>
+    <div class='hamburger'>
+      <span class='nav'></span>
+      <span class='nav'></span>
+      <span class='nav'></span>
+    </div>
+    <button id="themeToggleBtn">change theme</button>
+  </header>
+  <section class="section home active">
+    <h1 class="home__title">Hi,i'm Vladyslav Sasnyk</h1>
+    front-end developer
+    <div class="home__information">welcome to my portfolio website</div>
+    <p></p>
+  </section>
+  <section class="section about">
+    <ul class="about__info">
+      <li>Vladyslav Sasnyk</li>
+      <li>front-end developer</li>
+      <li>age: 23</li>
+      <li>city: Lviv</li>
+    </ul>
+    <ul class="about__skills">
+      <h3>Skills:</h3>
+      <li>HTML,CSS(Tailwind)</li>
+      <li>JavaScript</li>
+      <li>React JS</li>
+      <li>Redux(Redux Toolkit)</li>
+      <li>Router DOM</li>
+      <li>GSAP</li>
+      <li>Git</li>
+    </ul>
+    <div class="about__cvs">
+      <h3>
+        you can view more information about me and download cv
+      </h3>
+      <div class="about__item">
+        <button>
+          <a href="https://drive.google.com/file/d/1Kd-_ZrborfjPMC_71nGvM98LIEBBgTJV/view?usp=drive_link"
+          target="_blank">Ukrainian version</a>
+        </button>
+      </div>
+      <div class="about__item">
+        <button>
+          <a href="https://drive.google.com/file/d/1zbjXIDRLdzda_sWoH9vvXmbqLSyQqLZS/view?usp=drive_link"
+          target="_blank">English version</a>
+        </button>
+        
+      </div>
+    </div>
+
+  </section>
+  <section class="section projects">
+    <h1>here are my projects</h1>
+    <div class="project__list">
+      <div class="project__item">
+        <a class="project__img" href="https://english-space.vercel.app/" target="_blank"><img
+            src="images/english-space.png" alt="js-project" width="95%" class="project__img"></a>
+        <div class="project__desc">
+          <p>The project was developed by React JS. With using tailwind css, gsap, swiper js.
+          </p>
+          <a href="https://github.com/VladSasnyk/react-project" target="_blank"><img src="images/git.png" class="git__img" alt=""></a>
+        </div>
+      </div>
+      <div class="project__item">
+        <a class="project__img" href="https://words-learning-beta.vercel.app/" target="_blank"><img
+            src="images/words-learning.png" alt="js-project" width="95%" class="project__img"></a>
+        <div class="project__desc">
+          <p>The project was developed by React JS. With using Router DOM, axios, tailwind css, gsap.
+          </p>
+          <a href="https://github.com/VladSasnyk/react-project" target="_blank"><img src="images/git.png" class="git__img" alt=""></a>
+        </div>
+      </div>
+      <div class="project__item">
+        <a class="project__img" href="https://jsproject-git-main-vladsasnyks-projects.vercel.app/" target="_blank"><img
+            src="images/jsproject.jpg" alt="jsproject" width="95%" class="project__img"></a>
+        <div class="project__desc">
+          <p>JS with using scrollreveal, swiper js libraries.
+          </p>
+          <a href="https://github.com/VladSasnyk/jsproject" target="_blank"><img src="images/git.png" class="git__img" alt=""></a>
+        </div>
+      </div>
+      <!-- <div class="project__item">
+        <a class="project__img" href="https://javascript-vladsasnyks-projects.vercel.app/" target="_blank"><img
+            src="images/js-project.jpg" alt="js-project" width="95%" class="project__img"></a>
+        <div class="project__desc">
+          <p>The project was developed by clean Java Script. In the project, you can use a calculator, timer, currency
+            converter and take a test</p>
+          <a href="https://github.com/VladSasnyk/javascript" target="_blank"><img src="images/git.png" class="git__img" alt=""></a>
+        </div>
+      </div> -->
+      <div class="project__item">
+        <a class="project__img" href="https://react-project-vladsasnyks-projects.vercel.app/" target="_blank"><img
+            src="images/react-project.jpg" alt="js-project" width="95%" class="project__img"></a>
+        <div class="project__desc">
+          <p>The project was developed by React JS. With using Redux Toolkit.
+          </p>
+          <a href="https://github.com/VladSasnyk/react-project" target="_blank"><img src="images/git.png" class="git__img" alt=""></a>
+        </div>
+      </div>
+      
+
+
+
+    </div>
+  </section>
+  <section class="section contacts">
+    <ul>
+      <li>sasnykvlad@gmail.com</li>
+      <li>phone: +380502973421</li>
+      <li>telegram: @vladsasnyk</li>
+    </ul>
+    <div class="contacts__icons">
+      <a href="https://t.me/vladsasnyk" target="_blank"><img src="images/telegram.png" width='25%' alt=""></a>
+      <a href="https://www.linkedin.com/in/vlad-sasnyk-b7a7242a4/" target="_blank"><img src="images/linkedin.png"
+          width='25%' alt=""></a>
+      <a href="https://github.com/VladSasnyk" target="_blank"><img src="images/git.png" width='25%' alt=""></a>
+    </div>
+  </section>
+
+  <script src="scripts/app.js"></script>
+</body>
+
+
+</html>
